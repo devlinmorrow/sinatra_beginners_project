@@ -1,0 +1,9 @@
+<p>Okay, hi <%= params[:first_name] %>.</p>
+
+<p>Please enter your age.</p>
+
+<form action="/job">
+  <input type="hidden" name="first_name" value=<%= params[:first_name] %>>
+  <input type="text" name="age">
+  <input type="submit">
+</form>
